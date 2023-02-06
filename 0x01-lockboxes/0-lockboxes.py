@@ -7,7 +7,7 @@ in the other boxes
 
 def canUnlockAll(boxes):
     """
-    Argument: a method that determines if all the boxes can be opened
+    Argument: determines if all the boxes can be opened
     Boxes - a list of lists.
     Returns true if all boxes can be opened else false..
     Uses indexes as keys.
