@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+# script to rotate nxn 2D matrix
 
 def rotate_2d_matrix(matrix):
     '''scripts to rotate nxn 2D matrix
