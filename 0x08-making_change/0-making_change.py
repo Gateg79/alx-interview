@@ -18,5 +18,4 @@ def makeChange(coins, total):
     # Return: fewest number of coins needed to meet total
     if cal[-1] != float("inf"):
         return cal[-1]
-    else:
-        -1
+    return -1
