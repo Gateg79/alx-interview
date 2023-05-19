@@ -16,6 +16,4 @@ def makeChange(coins, total):
         for b in range(coin, total + 1):
             cal[b] = min(cal[b], cal[b - coin] + 1)
     # Return: fewest number of coins needed to meet total
-    if cal[-1] != float("inf"):
-        return cal[-1]
-    return -1
+    return cal[-1] if cal[-1] != float("inf") else -1
