@@ -14,7 +14,6 @@ def makeChange(coins, total):
         return 0
     # The total no. of coins
     cal = [0] + [float("inf")] * (total)
-    
     for coin in coins:
         for b in range(coin, total + 1):
             cal[b] = min(cal[b], cal[b - coin] + 1)
