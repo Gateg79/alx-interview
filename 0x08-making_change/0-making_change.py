@@ -8,6 +8,8 @@ import math
 
 
 def makeChange(coins, total):
+    if total <= 0:
+        return 0
     cal = [math.inf] * (total+1)
     cal[0] = 0
 
